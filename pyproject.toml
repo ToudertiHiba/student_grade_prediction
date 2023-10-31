@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "grade-prediction"
+version = "0.1.0"
+description = ""
+authors = ["ToudertiHiba <hibatouderti@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.2"
+numpy = "^1.26.1"
+scikit-learn = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

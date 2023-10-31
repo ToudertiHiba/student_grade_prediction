@@ -1,0 +1,5 @@
+# Ignore the virtual environment folder
+.venv_grade_prediction/
+
+# Ignore the poetry lock file
+poetry.lock
